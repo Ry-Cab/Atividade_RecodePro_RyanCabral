@@ -1,0 +1,26 @@
+.main_objetos{
+    padding: 5%;
+    display: grid;
+    grid-template-columns:  350px 350px 350px;
+    grid-template-rows: 400px 400px 400px;
+}
+.object{
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+button{
+    width: 100%;
+    margin-top: 1em;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+
+.preco_p{
+    margin-top: 0.5em;
+}

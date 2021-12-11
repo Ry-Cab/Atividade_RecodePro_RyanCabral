@@ -2,9 +2,9 @@
 .bloco_1{
     width: auto;
     height: 14em;
-    background-image: url(images/main0/praia.jpg);
+    background-image: url(images/main0/mar.jpg);
     background-color: wheat;
-    background-position-y: right;
+    background-position-y: center;
     padding: 100px;
 }
 .aside{
