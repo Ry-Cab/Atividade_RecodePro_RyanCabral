@@ -1,0 +1,123 @@
+/*Main 1 ==============================================*/
+.bloco_1{
+    width: auto;
+    height: 14em;
+    background-image: url(images/main0/praia.jpg);
+    background-color: wheat;
+    background-position-y: right;
+    padding: 100px;
+}
+.aside{
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+}
+.aside > input, button{
+    height: 3.5em;
+    display: inline-block;
+}
+/*Main 2*/
+.bloco_2{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/*Grid da Main 2 ======================================*/
+.bloco_2 > h1{
+    margin-bottom: 0.9em;
+    margin-top: 0.9em;
+    background-color: #F75611;
+    color: white;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60vh 60vh;
+    grid-template-areas: "item_1 item_2 item_3"
+    "item_4 item_5 item_6"
+    "item_7 item_8 item_9"; 
+    
+}
+
+.item{
+    background-color: orange;
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+    color: white;
+    border-radius: 20px;  
+    filter: brightness(80%); 
+    text-align: center;
+}
+.item:hover{
+    filter: brightness(100%); 
+}
+.item > div{
+    padding: 50px;
+    font-size: 2em;
+}
+.item >div > button{
+    padding: 0.9em;
+    font-size: 20px;
+    border: 1.5px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    margin: 10%;
+    border-radius: 0.9em;
+}
+
+.item_1{
+    grid-area: item_1;
+    background-image: url(images/main/marcos-paulo-prado-BT4uwK-NZrY-unsplash.jpg);
+}
+.item_2{
+    grid-area: item_2;
+    background-image: url(images/main/bruno-thethe-nxkinK7hhOk-unsplash.jpg);
+    background-position-x: center;
+    background-position-y: bottom;
+}
+.item_3{
+    grid-area: item_3;
+    background-image: url(images/main/bahia.jpg);
+    background-position-x: bottom;
+    background-position-y: center;
+}
+.item_4{
+    grid-area: item_4;
+    background-image: url(images/main/pernambuco.jpg);
+    background-position-y: center;
+    background-position-x: top;
+}
+.item_5{
+    grid-area: item_5;
+    background-image: url(images/main/parana.jpg);
+    background-position-x: center;
+    background-position-y: center;
+}
+.item_6{
+    grid-area: item_6;
+    background-image: url(images/main/riograndedosul.jpg);
+    background-position-x: center;
+    background-position-y: center;
+}
+.item_7{
+    background-image: url(images/main/santacatarina.jpg);
+    grid-area: item_7;
+}
+.item_8{
+    grid-area: item_8;
+    background-image: url(images/main/riograndedonorte.jpg);
+    background-position-x: center;
+    background-position-y: center;
+}
+.item_9{
+    grid-area: item_9;
+    background-image: url(images/main/para.jpg);
+    background-position-x: bottom;
+    background-position-y: bottom;
+
+}
