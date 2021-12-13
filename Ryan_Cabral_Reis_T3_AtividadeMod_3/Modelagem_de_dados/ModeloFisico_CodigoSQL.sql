@@ -4,19 +4,24 @@ use AgenciaViagens;
 
 create table Cliente(
 id_cliente int identity (1,1) primary key not null,
-nome_cliente char(50) not null,
-email char(50) not null,
-senha char(8) not null,
-data_Nasc char(12) not null,
-estado_Origem char(60) not null,
-data_Ida char(12) not null,
-data_Volta char(12) not null
+nome_cliente varchar(50) not null,
+email varchar(50) not null,
+data_Nasc date not null,
+data_Ida date not null,
+data_Volta date not null
 );
 
-create table Destino(
+insert into Cliente (nome_cliente,email,data_Nasc,data_Ida,data_Volta) values
+('Lorem Ipsum', 'mamsamsa', '25/12/2022', '30/12/2021', '10/01/2022');
+
+select * from Cliente;
+
+create table destino(
 id_destino int identity (1,1) primary key not null,
-estado_Destino char(60) not null,
-cidade_Destino char(60) not null,
-pais_Destino char(60) not null,
-preco decimal not null
+estado_Destino varchar(60) not null,
+cidade_Destino varchar(60) not null,
+pais_Destino varchar(60) not null,
+preco decimal not null,
+
+foreign key (id_cliente) references destinos(id_cliente)
 );

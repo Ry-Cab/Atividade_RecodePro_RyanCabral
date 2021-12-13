@@ -1,8 +1,8 @@
 .main_objetos{
     padding: 5%;
     display: grid;
-    grid-template-columns:  350px 350px 350px;
-    grid-template-rows: 400px 400px 400px;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: 80vh 80vh 80vh;
 }
 .object{
     height: 400px;
