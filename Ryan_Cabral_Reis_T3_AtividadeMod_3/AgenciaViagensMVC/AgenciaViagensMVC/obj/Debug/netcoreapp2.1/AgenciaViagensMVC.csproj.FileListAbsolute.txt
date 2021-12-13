@@ -17,10 +17,8 @@ C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaVi
 C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\AgenciaViagensMVC.TagHelpers.input.cache
 C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\AgenciaViagensMVC.TagHelpers.output.cache
 C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\AgenciaViagensMVC.RazorCoreGenerate.cache
-C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
 C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
 C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -39,3 +37,10 @@ C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaVi
 C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\Razor\Views\Destinos\Details.cshtml.g.cs
 C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\Razor\Views\Destinos\Edit.cshtml.g.cs
 C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\Razor\Views\Destinos\Index.cshtml.g.cs
+C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Create.cshtml.g.cs
+C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Delete.cshtml.g.cs
+C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Details.cshtml.g.cs
+C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Edit.cshtml.g.cs
+C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\Razor\Views\Clientes\Index.cshtml.g.cs
+C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Destinos.cshtml.g.cs
+C:\Users\Sweetener\Documents\RECODE\Ryan_Cabral_Reis_T3_AtividadeMod_3\AgenciaViagensMVC\AgenciaViagensMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Promocoes.cshtml.g.cs

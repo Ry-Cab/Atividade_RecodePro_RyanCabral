@@ -15,7 +15,7 @@ namespace AgenciaViagensMVC.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Destinos()
         {
             ViewData["Message"] = "Your application description page.";
 
@@ -29,7 +29,7 @@ namespace AgenciaViagensMVC.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Promocoes()
         {
             return View();
         }

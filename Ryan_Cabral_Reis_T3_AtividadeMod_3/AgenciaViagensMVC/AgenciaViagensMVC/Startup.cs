@@ -36,6 +36,7 @@ namespace AgenciaViagensMVC
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddDbContext<DestinoContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Conexao")));
+            services.AddDbContext<ClienteContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Conexao")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
