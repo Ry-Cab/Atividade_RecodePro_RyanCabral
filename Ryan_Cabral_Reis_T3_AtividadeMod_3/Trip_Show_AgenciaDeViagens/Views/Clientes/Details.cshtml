@@ -1,0 +1,75 @@
+@model Trip_Show_AgenciaDeViagens.Models.Cliente
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css">
+    <style>
+    body{
+        margin: 2em;
+    }
+</style>
+</head>
+<body>
+
+<div>
+    <h4>Clientes - Detalhes</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NOME_CLIENTE)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NOME_CLIENTE)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EMAIL_CLIENTE)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EMAIL_CLIENTE)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CIDADE_CLIENTE)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CIDADE_CLIENTE)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ESTADO_CLIENTE)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ESTADO_CLIENTE)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DATA_IDA)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DATA_IDA)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DATA_VOLTA)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DATA_VOLTA)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DATA_NASC)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DATA_NASC)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ID_CLIENTE">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+</body>
+</html>

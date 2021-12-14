@@ -1,0 +1,67 @@
+@model IEnumerable<Trip_Show_AgenciaDeViagens.Models.Destino>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css">
+<style>
+    body{
+        margin: 2em;
+    }
+</style>
+</head>
+<body>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CIDADE_DESTINO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ESTADO_DESTINO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PAIS_DESTINO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PRECO_DESTINO)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CIDADE_DESTINO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ESTADO_DESTINO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PAIS_DESTINO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PRECO_DESTINO)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID_DESTINO">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ID_DESTINO">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID_DESTINO">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>

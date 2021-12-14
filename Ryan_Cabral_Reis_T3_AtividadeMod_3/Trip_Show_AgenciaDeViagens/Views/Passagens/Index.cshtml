@@ -1,0 +1,61 @@
+@model IEnumerable<Trip_Show_AgenciaDeViagens.Models.Passagem>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css">
+<style>
+    body{
+        margin: 2em;
+    }
+</style>
+</head>
+<body>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DATA_COMPRA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Destino)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DATA_COMPRA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cliente.CIDADE_CLIENTE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Destino.CIDADE_DESTINO)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID_PASSAGEM">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ID_PASSAGEM">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID_PASSAGEM">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,75 @@
+@model Trip_Show_AgenciaDeViagens.Models.Cliente
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css">
+    <style>
+        body{
+            margin:2em;
+        }
+    </style>
+    
+</head>
+<body>
+
+<h4>Clientes - Cadastros</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NOME_CLIENTE" class="control-label"></label>
+                <input asp-for="NOME_CLIENTE" class="form-control" />
+                <span asp-validation-for="NOME_CLIENTE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EMAIL_CLIENTE" class="control-label"></label>
+                <input asp-for="EMAIL_CLIENTE" class="form-control" />
+                <span asp-validation-for="EMAIL_CLIENTE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CIDADE_CLIENTE" class="control-label"></label>
+                <input asp-for="CIDADE_CLIENTE" class="form-control" />
+                <span asp-validation-for="CIDADE_CLIENTE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ESTADO_CLIENTE" class="control-label"></label>
+                <input asp-for="ESTADO_CLIENTE" class="form-control" />
+                <span asp-validation-for="ESTADO_CLIENTE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DATA_IDA" class="control-label"></label>
+                <input asp-for="DATA_IDA" class="form-control" />
+                <span asp-validation-for="DATA_IDA" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DATA_VOLTA" class="control-label"></label>
+                <input asp-for="DATA_VOLTA" class="form-control" />
+                <span asp-validation-for="DATA_VOLTA" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DATA_NASC" class="control-label"></label>
+                <input asp-for="DATA_NASC" class="form-control" />
+                <span asp-validation-for="DATA_NASC" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+</body>
+</html>

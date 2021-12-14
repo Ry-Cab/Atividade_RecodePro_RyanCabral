@@ -1,0 +1,76 @@
+@model Trip_Show_AgenciaDeViagens.Models.Cliente
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css">
+    <style>
+    body{
+        margin: 2em;
+    }
+</style>
+</head>
+<body>
+<h2>Clientes - Exclusão</h2>
+<h3>Tem certeza que você quer deletar esse cliente?</h3>
+<div>
+    <h4>Cliente</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NOME_CLIENTE)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NOME_CLIENTE)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EMAIL_CLIENTE)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EMAIL_CLIENTE)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CIDADE_CLIENTE)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CIDADE_CLIENTE)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ESTADO_CLIENTE)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ESTADO_CLIENTE)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DATA_IDA)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DATA_IDA)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DATA_VOLTA)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DATA_VOLTA)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DATA_NASC)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DATA_NASC)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ID_CLIENTE" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
+</body>
+</html>

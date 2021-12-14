@@ -1,0 +1,53 @@
+@model Trip_Show_AgenciaDeViagens.Models.Passagem
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css">
+<style>
+    body{
+        margin: 2em;
+    }
+</style>
+</head>
+<body>
+
+<h4>Passagem</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DATA_COMPRA" class="control-label"></label>
+                <input asp-for="DATA_COMPRA" class="form-control" />
+                <span asp-validation-for="DATA_COMPRA" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ClienteID_CLIENTE" class="control-label"></label>
+                <select asp-for="ClienteID_CLIENTE" class ="form-control" asp-items="ViewBag.ClienteID_CLIENTE"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DestinoID_DESTINO" class="control-label"></label>
+                <select asp-for="DestinoID_DESTINO" class ="form-control" asp-items="ViewBag.DestinoID_DESTINO"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+</body>
+</html>

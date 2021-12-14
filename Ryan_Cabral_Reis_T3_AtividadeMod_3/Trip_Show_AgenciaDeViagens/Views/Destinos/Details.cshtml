@@ -1,0 +1,57 @@
+@model Trip_Show_AgenciaDeViagens.Models.Destino
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css">
+<style>
+    body{
+        margin: 2em;
+    }
+</style>
+</head>
+<body>
+
+<div>
+    <h4>Destino</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CIDADE_DESTINO)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CIDADE_DESTINO)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ESTADO_DESTINO)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ESTADO_DESTINO)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PAIS_DESTINO)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PAIS_DESTINO)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PRECO_DESTINO)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PRECO_DESTINO)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ID_DESTINO">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+</body>
+</html>
