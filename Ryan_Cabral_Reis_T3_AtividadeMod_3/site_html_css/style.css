@@ -14,12 +14,21 @@ Azul Claro: #00CCFF
 */
 
 /*Configurações de estilo do Nav*/
+.aside-nav-top{
+    font-size: 15px;
+    text-align: center;
+    background-color: #bec3f1;
+    color: white;
+    padding: 10px;
+    
+
+}
 nav{
     color: white;
     background-color: #1129FA;
     display: flex;
-    margin-bottom: 2em;
-    padding: 2em;
+   
+    padding: 1.5em;
 }
 nav> img{
     width: 5em;
@@ -28,14 +37,14 @@ nav> img{
 }
 
 .a_nav{
-    height: 20%;
-    width: 20%;
+    height: 15%;
+    width: 15%;
     border-radius: 0.5em;
     color: white;
     background-color: #F70C5B;
     padding: 1em;
     margin-left: 2em;
-    margin-right: 2em;
+    margin-right: 1em;
     text-decoration: none;
 
 }

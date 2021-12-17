@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jO8eQ89TfArjva8NSpTxLAOJ3HV2Ryi6EUyAutgHtrfvg3+7/p+RcXWGE0Y3XjWl6hjocbjChJm01SWxcsPBfw==",
+  "dgSpecHash": "rvHehhhCRI5ohqIAIU1BmQTt5myLdwsra7D8lx1tmCkTfqbTwEPX88tvECtHJstbGU6LGfh+apGtp/U1lJLVFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sweetener\\Desktop\\Trip_Show_AgenciaDeViagens\\Trip_Show_AgenciaDeViagens.csproj",
+  "projectFilePath": "C:\\Users\\Sweetener\\Documents\\RECODE\\Ryan_Cabral_Reis_T3_AtividadeMod_3\\Trip_Show_AgenciaDeViagens\\Trip_Show_AgenciaDeViagens.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sweetener\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Sweetener\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

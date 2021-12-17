@@ -7213,11 +7213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sweetener\\Desktop\\Trip_Show_AgenciaDeViagens\\Trip_Show_AgenciaDeViagens.csproj",
+      "projectUniqueName": "C:\\Users\\Sweetener\\Documents\\RECODE\\Ryan_Cabral_Reis_T3_AtividadeMod_3\\Trip_Show_AgenciaDeViagens\\Trip_Show_AgenciaDeViagens.csproj",
       "projectName": "Trip_Show_AgenciaDeViagens",
-      "projectPath": "C:\\Users\\Sweetener\\Desktop\\Trip_Show_AgenciaDeViagens\\Trip_Show_AgenciaDeViagens.csproj",
+      "projectPath": "C:\\Users\\Sweetener\\Documents\\RECODE\\Ryan_Cabral_Reis_T3_AtividadeMod_3\\Trip_Show_AgenciaDeViagens\\Trip_Show_AgenciaDeViagens.csproj",
       "packagesPath": "C:\\Users\\Sweetener\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sweetener\\Desktop\\Trip_Show_AgenciaDeViagens\\obj\\",
+      "outputPath": "C:\\Users\\Sweetener\\Documents\\RECODE\\Ryan_Cabral_Reis_T3_AtividadeMod_3\\Trip_Show_AgenciaDeViagens\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

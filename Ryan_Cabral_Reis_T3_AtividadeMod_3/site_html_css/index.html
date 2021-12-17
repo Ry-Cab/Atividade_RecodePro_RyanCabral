@@ -12,6 +12,7 @@
 </head>
 <body>
     <header>
+        <aside class="aside-nav-top"><a href="#" style="color: white;">Consulte aqui as atualizações sobre o coronavírus.</a></aside>
         <nav>
             <img src="images/logo/logo-200.png" alt="Logo Trip Show">
             <a href="Index.html" class="a_nav">Home</a>
@@ -22,20 +23,56 @@
 </header>
     <aside class="bloco_1">
         <div class="aside">
-            <h1>Passagens Áereas</h1>
-            <label>De onde você está saindo?</label>
-            <input type="text" name="" id=""><br>
-            <label>Para onde você vai?</label>
-            <input type="text" name="" id=""><br>
-            <label>Escolha as datas</label>
-            <input type="date" name="" id=""><br>
-            <button>Buscar Voôs</button>
+            
+            <div>
+                <h1>PASSAGENS ÁEREAS</h1>     
+            </div>
+
+            <div class="aside-flex">
+
+            <div class="aside-item">
+                <label>De onde você está saindo?</label>
+                <input type="text" name="" id="">
+            </div>
+
+            <div class="aside-item">
+                <label>Para onde você quer ir?</label>
+                <select name="" id="">
+                    <option value="">Selecione</option>
+                    <option value="">Rio de Janeiro - RJ</option>
+                    <option value="">São Paulo - SP</option>
+                    <option value="">Salvador - BA</option>
+                    <option value="">Recife - PE</option>
+                    <option value="">Maringá - PR</option>
+                    <option value="">Natal - RN</option>
+                    <option value="">Belém - PA</option>
+                    <option value="">Blumenau - SC</option>
+                    <option value="">Porto Alegre - RS</option>
+                </select>
+            </div>
+            <div class="aside-item">
+                <label>Escolha a data de ida</label>
+                <input type="date" name="" id=""><br>
+            </div>
+            <div class="aside-item">
+                <label>Escolha a data de volta</label>
+                <input type="date" name="" id=""><br>
+            </div>
+            <button class="aside-item button-aside"><a href="Destinos.html" style="text-decoration: none; color: white;">Buscar Vôos</a></button>
+
+            </div>
+            
+           
         </div>
     </aside>
     <main class="bloco_2">
-        <h1>Aqui Você encontra os melhores preços!</h1>
+        <div class="outdoor_main">
+            <h1>Aqui Você encontra os melhores preços!</h1>
+            <p>Dê uma olhada em nossos vôos disponíveis!</p>
+        </div>
+        
         <div>
-            <h2>Nossos Voôs disponíveis</h2>
+            
             <div id="container">
                 <div class="item item_1" ><div>
                     <h3>Rio de Janeiro</h3><button>Ver mais</button>

@@ -5,16 +5,26 @@
     grid-template-rows: 80vh 80vh 80vh;
 }
 .object{
-    height: 400px;
-    width: 300px;
+    height: 30em;
+    width: 20em;
     border: 1px solid black;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
 }
+
+.object > div > *{
+    padding: 2px;
+}
+
 button{
     width: 100%;
+    height: 4em;
     margin-top: 1em;
+    background-color: #F75611;
+    border: none;
+    color: white;
+    border-radius: 5px;
 }
 img{
     height: 300px;
@@ -23,4 +33,30 @@ img{
 
 .preco_p{
     margin-top: 0.5em;
+}
+
+.outdoor_destinos{
+    margin-bottom: 0.9em;
+    margin-top: 0.9em;
+    background-color: #F75611;
+    color: white;
+    padding: 5em;
+    padding-left: 20em;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 2em;
+    
+    position: relative;
+}
+
+.outdoor_destinos > *{
+    padding: 5px;
+}
+.span-div{
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    padding: 1px;
+    
 }
