@@ -3,7 +3,7 @@
     width: auto;
     height: 14em;
     background-image: url(images/main0/mar.jpg);
-    background-color: wheat;
+    background-color: rgb(214, 214, 214);
     background-position-y: center;
     padding: 115px;
 }
@@ -66,8 +66,8 @@
     color: white;
     padding: 5em;
     padding-left: 20em;
-    margin-left: -300px;
-    margin-right: -300px;
+    margin-left: -20%;
+    margin-right: -20%;
     margin-top: 2em;
     margin-bottom: 1em;
     position: relative;

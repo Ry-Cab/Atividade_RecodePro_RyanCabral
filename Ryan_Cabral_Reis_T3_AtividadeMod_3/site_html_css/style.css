@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 /*Configurações gerais de estilo*/
+
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 /*
 Paleta de Cores
@@ -59,7 +61,7 @@ nav> img{
     display: flex;
     background-color: #1129FA;
     padding: 3em;
-    margin-top: 5em;
+    
     
 }
 .footer > *{

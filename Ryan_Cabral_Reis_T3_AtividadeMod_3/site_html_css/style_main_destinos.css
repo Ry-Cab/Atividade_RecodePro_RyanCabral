@@ -2,15 +2,16 @@
     padding: 5%;
     display: grid;
     grid-template-columns:  1fr 1fr 1fr;
-    grid-template-rows: 80vh 80vh 80vh;
+    grid-template-rows: 90vh 90vh 90vh;
 }
 .object{
-    height: 30em;
+    height: auto;
     width: 20em;
     border: 1px solid black;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
+    margin-bottom: 2em;
 }
 
 .object > div > *{
